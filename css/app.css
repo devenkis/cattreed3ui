@@ -1,0 +1,59 @@
+.node {
+  cursor: pointer;
+}
+
+.overlay{
+    background-color:#EEE;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 5px;
+}
+
+.node text {
+  font-size:18px;
+  font-family:sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 5px;
+}
+
+.templink {
+  fill: none;
+  stroke: red;
+  stroke-width: 5px;
+}
+
+.templinkroot {
+  fill: none;
+  stroke: blue;
+  stroke-width: 5px;
+}
+
+.ghostCircle.show{
+    display:block;
+}
+
+.ghostCircle, .activeDrag .ghostCircle{
+     display: none;
+}
+
+.hidden {
+        display: none;
+}
+
+.checkboxdiv {
+    display:inline-block;
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+}
+.treediv {
+    width: 20%;
+    height: 20%;
+}

@@ -1,0 +1,32 @@
+http://blog.tamizhvendan.in/blog/2015/11/23/a-beginner-guide-to-setup-react-dot-js-environment-using-babel-6-and-webpack/
+Follow the above tutorial except add babel-loader instead of babel in webpack.config.js
+and do npm i babel-core -S
+
+256  mkdir catui
+  257  cd catui
+  258  npm init
+  259  cls
+  260  npm i webpack -S
+  261  touch webpack.config.js
+  262  mkdir src
+  263  cd src
+  264  mkdir client/app
+  265  mkdir client
+  266  cd client
+  267  mkdir app
+  268  cd app
+  269  touch index.jsx
+  270  cd ..
+  271  cd ..
+  272  cd ..
+  273  ./node_modules/.bin/webpack -d
+  274  npm i babel-loader babel-preset-es2015 babel-preset-react -S
+  275  npm i babel-core -S
+  276  touch .babelrc
+  277  npm i react react-dom -S
+  278  ./node_modules/.bin/webpack -d
+  279  ./node_modules/.bin/webpack -d --watch
+  280  npm run build
+  281  clear
+  282  npm run dev
+  283  npm run dev

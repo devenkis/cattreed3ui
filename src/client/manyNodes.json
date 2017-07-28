@@ -1,0 +1,36 @@
+{
+    "user_id": 0,
+    "name": "Root Node",
+    "children": [
+        {
+            "user_id": 1,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 2,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 3,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 4,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 5,
+                                    "name": "Travis Compton"
+                                },
+                                {
+                                    "user_id": 6,
+                                    "name": "Brenda Galloway"
+                                }
+                            ]
+                        }
+                      ]
+                  }
+                ]
+              }
+            ]
+          }
